@@ -8,7 +8,7 @@ const Job = db.define("job", {
     description: {
         type: Sequelize.STRING,
     },
-    Salary: {
+    salary: {
         type: Sequelize.STRING,
     },
     company: {
